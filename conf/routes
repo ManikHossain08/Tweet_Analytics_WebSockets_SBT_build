@@ -1,0 +1,22 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+
+
+#Returns websocket connection for searching tweets by keyword
+GET		/getTweetsBySearchViaWebSocket			controllers.HomeController.getTweetsBySearchViaWebSocket()
+
+#Returns word level statistics for the search term through web sockets
+GET		/getTweetStatisticsViaWebSocket			controllers.HomeController.getTweetStatisticsViaWebSocket()
+
+#Returns websocket connection for searching tweets by hashtag
+GET		/getUserTimelineViaWebSocket			controllers.HomeController.getUserTimelineViaWebSocket()
+
+#Returns websocket connection for searching tweets by hashtag
+GET		/getTweetsByHashtagViaWebSocket			controllers.HomeController.getTweetsByHashtagViaWebSocket()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/conf/logback.xml,/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/conf/application.conf,/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/conf/twitter4j.properties,/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/target/scala-2.13/classes/twitter4j.properties)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/conf/routes,/Users/manikhossain/Downloads/TweeterLytics-HGG02-master/target/scala-2.13/classes/routes)[0m

@@ -1,0 +1,16 @@
+input {
+	background-color: white;
+	border: 2px solid grey;
+}
+
+.center  {
+	text-align: center;
+}
+
+caption {
+	font-weight: 600;
+	color: black !important;
+}
+body {
+	overflow-x: hidden;
+}
