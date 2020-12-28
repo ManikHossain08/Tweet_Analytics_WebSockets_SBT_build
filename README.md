@@ -2,6 +2,15 @@
 
 - Tweet Analystics web Sockets application using play framework with sbt build. 
 
+Play Application: Reactive TweetAnalytics". Your goal is to modify your Play application from static applicationn to 
+make it reactive, i.e., stream live updates to the user interface. Thus, instead of having a static
+list of Tweets for a search keyword, your application will now dynamically show any new incoming tweets.
+You only have to make the search page reactive; the prole page can stay static (but you are free to make it
+reactive as well).
+You must implement this reactive behavior as an asynchronous server push solution, using WebSockets and
+Akka Actors.1 You can base your implementation on the Play `Reactive Stocks' example application shown
+in the lecture (note: you can, but do not have to, use Akka Streams in your solution).
+
 
 ## Pre-requisites
 1) JDK 11 (Recommended) or JDK 8
